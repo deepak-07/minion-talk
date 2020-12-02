@@ -3,6 +3,7 @@ body {
     background-color: #ffe316;
     /* margin: 1rem 1rem; */
     font-family: 'Nova Round', cursive;
+    margin: 0px;
 }
 
 :root {
@@ -18,6 +19,7 @@ body {
 .contain-body {
     background-image: url(/image/minion-img.jpg);
     background-size: cover;
+    
 }
 
 .container {
@@ -25,6 +27,11 @@ body {
     padding: 0.5rem 0.5rem;
     margin: auto;
     text-align: center;
+    font-size: larger;
+    
+}
+.container p{
+    margin-top: 0px;
 }
 
 .container-center {
@@ -43,11 +50,7 @@ body {
     width: 70%;
     max-width: 500px;
     border: 2px solid black;
-}
-
-#output-txt {
-    height: 30vh;
-    width: 80%;
+    
 }
 
 
@@ -58,14 +61,11 @@ body {
     height: 5vh;
     border-radius: 20%;
     /* margin: auto; */
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
+    font-weight: bold;
     
 }
 
-p {
-    text-align: center;
-    font-size: larger;
-}
 
 .output {
     border: 4px solid black;
@@ -76,11 +76,12 @@ p {
     padding: 1rem 1rem;
     margin: auto;
     font-size: larger;
-    margin-top: 0.5rem;
+    margin-top: 0rem;
     margin-bottom: 1rem;
     background-color: white;
 }
 
 .footer {
+    
     background-color: var(--primary-color);
 }
